@@ -14,6 +14,8 @@
 		830E06191CFD2ADC00F3F71D /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E06171CFD2ADC00F3F71D /* FirstVC.xib */; };
 		830E061C1CFD2D1300F3F71D /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E061A1CFD2D1300F3F71D /* SecondVC.swift */; };
 		830E061D1CFD2D1300F3F71D /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E061B1CFD2D1300F3F71D /* SecondVC.xib */; };
+		830E06211CFD31CA00F3F71D /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E061F1CFD31CA00F3F71D /* ThirdVC.swift */; };
+		830E06221CFD31CA00F3F71D /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E06201CFD31CA00F3F71D /* ThirdVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		830E06171CFD2ADC00F3F71D /* FirstVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
 		830E061A1CFD2D1300F3F71D /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		830E061B1CFD2D1300F3F71D /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		830E061F1CFD31CA00F3F71D /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		830E06201CFD31CA00F3F71D /* ThirdVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				830E06171CFD2ADC00F3F71D /* FirstVC.xib */,
 				830E061B1CFD2D1300F3F71D /* SecondVC.xib */,
+				830E06201CFD31CA00F3F71D /* ThirdVC.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			children = (
 				830E06161CFD2ADC00F3F71D /* FirstVC.swift */,
 				830E061A1CFD2D1300F3F71D /* SecondVC.swift */,
+				830E061F1CFD31CA00F3F71D /* ThirdVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 				830E06091CFD2A4900F3F71D /* Assets.xcassets in Resources */,
 				830E061D1CFD2D1300F3F71D /* SecondVC.xib in Resources */,
 				830E06191CFD2ADC00F3F71D /* FirstVC.xib in Resources */,
+				830E06221CFD31CA00F3F71D /* ThirdVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830E06211CFD31CA00F3F71D /* ThirdVC.swift in Sources */,
 				830E06021CFD2A4900F3F71D /* AppDelegate.swift in Sources */,
 				830E061C1CFD2D1300F3F71D /* SecondVC.swift in Sources */,
 				830E06181CFD2ADC00F3F71D /* FirstVC.swift in Sources */,

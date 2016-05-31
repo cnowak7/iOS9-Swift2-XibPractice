@@ -40,6 +40,12 @@ class SecondVC: UIViewController {
     
     // IBActions
     
+    @IBAction func thirdVCButtonPressed(sender: AnyObject) {
+        let thirdVC = ThirdVC()
+        thirdVC.messageFromSecondVC = "Second View Controller Says Hello!"
+        self.presentViewController(thirdVC, animated: true, completion: nil)
+    }
+    
     @IBAction func backButtonPressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }

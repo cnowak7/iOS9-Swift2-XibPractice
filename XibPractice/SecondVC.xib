@@ -35,12 +35,26 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtU-Y7-2zZ">
+                    <rect key="frame" x="88" y="269" width="145" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="145" id="OrH-AG-VYR"/>
+                        <constraint firstAttribute="height" constant="30" id="tVC-lF-a6k"/>
+                    </constraints>
+                    <state key="normal" title="Third View Controller">
+                        <color key="titleColor" red="0.90196078430000004" green="0.98823529409999999" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="thirdVCButtonPressed:" destination="-1" eventType="touchUpInside" id="QQA-Q1-W15"/>
+                    </connections>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5s-YB-ouM">
-                    <rect key="frame" x="61" y="269" width="198" height="30"/>
+                    <rect key="frame" x="61" y="399" width="198" height="30"/>
                     <color key="backgroundColor" red="0.49803921569999998" green="0.8862745098" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="Kse-SM-rEg"/>
-                        <constraint firstAttribute="width" constant="198" id="ZOC-Vz-6zM"/>
+                        <constraint firstAttribute="height" constant="30" id="Akn-ct-Orw"/>
+                        <constraint firstAttribute="width" constant="198" id="LTq-jJ-18f"/>
                     </constraints>
                     <state key="normal" title="Back To First View Controller">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -52,12 +66,14 @@
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="T5s-YB-ouM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8Mo-J5-uJs"/>
+                <constraint firstItem="RtU-Y7-2zZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="4PL-Il-6rc"/>
+                <constraint firstItem="T5s-YB-ouM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7EC-oj-OOp"/>
+                <constraint firstItem="RtU-Y7-2zZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ka3-Ui-V27"/>
                 <constraint firstItem="G0B-CF-slR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="QdJ-ZT-SQI"/>
                 <constraint firstItem="IY5-e7-9Gh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xrn-Df-yaa"/>
-                <constraint firstItem="T5s-YB-ouM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aHa-bn-SSh"/>
                 <constraint firstItem="IY5-e7-9Gh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="cs5-Nd-UQm"/>
                 <constraint firstAttribute="trailing" secondItem="G0B-CF-slR" secondAttribute="trailing" constant="8" id="jay-kc-Voy"/>
+                <constraint firstItem="T5s-YB-ouM" firstAttribute="top" secondItem="RtU-Y7-2zZ" secondAttribute="bottom" constant="100" id="qas-IY-IAS"/>
                 <constraint firstItem="G0B-CF-slR" firstAttribute="top" secondItem="IY5-e7-9Gh" secondAttribute="bottom" constant="50" id="sdJ-Gb-JjO"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
